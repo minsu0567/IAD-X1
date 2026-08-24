@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets — the HF token comes from Colab Secrets: userdata.get('HF_TOKEN')
+.env
+*.token
+secrets.*
+
+# Run outputs / artifacts (produced under /content or Drive, never committed)
+*.csv
+*.log
+*_output/
+eval_results/
+chat_template.jinja
+
+# OS / OneDrive
+.DS_Store
+Thumbs.db
+desktop.ini
